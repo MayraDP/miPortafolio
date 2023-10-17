@@ -1,0 +1,9 @@
+header {
+    background-image: url(assets/DNA.jpg); 
+}
+body{
+    background-color: rgb(216, 229, 251);
+}
+button{
+    background-color: aquamarine;
+}
