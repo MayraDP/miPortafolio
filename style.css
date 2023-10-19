@@ -1,6 +1,8 @@
 header {
     background-image: url(assets/DNA2.jpg);
     font-weight: bold; 
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 body{
     background-color: rgb(216, 229, 251);
@@ -16,7 +18,7 @@ body{
   border: 1px solid #6c757d;
   color: #ededf5;
   background-color: #0a90f0;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 
 /* Experiencia */
