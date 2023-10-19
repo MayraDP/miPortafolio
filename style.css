@@ -5,9 +5,20 @@ header {
     background-repeat: no-repeat;
 }
 body{
-    background-color: rgb(216, 229, 251);
+  background-image: url(assets/Jess.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
+.perfil{
+  margin: 0%;
+  padding: 0px;
+
+}
+h1{
+  color:#1919c9;
+
+}
 .contactame{
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -94,7 +105,7 @@ body{
   
 .habilidades, h2 {
     text-align: center;
-    color: rgb(5, 5, 244);
+    color: black;
     padding: 0%;
     margin: 0px;
 }
@@ -102,7 +113,7 @@ body{
 .habilidades, h4{
   padding: 10px;
   font-size: 28px; 
-    color: #4444ec;}
+    color: rgb(5, 5, 244)}
 
 
 .icon-habilidad, i {
@@ -173,7 +184,7 @@ ol{
 }
 .card-title {
   text-align: center;
-  color: rgb(9, 9, 9);
+  color: #2121f2;
   margin-top:0px;
   font-weight: 700;
   font-size: 1.55em;
@@ -201,7 +212,7 @@ ol{
 }
 
 .iconos-redes{
-  color: #2121f2;
+  color: #0bf4f0;
   display:inline-block;
   justify-content:space-between;
   align-content: center;
