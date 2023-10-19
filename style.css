@@ -5,6 +5,9 @@ header {
 body{
     background-color: rgb(216, 229, 251);
 }
+.perfil{
+
+}
 .contactame{
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
@@ -70,9 +73,23 @@ body{
   width:600px;
   max-width:800%;
 }
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  width: 60px;
+  height: 6px;
+  border: none;
+  border-radius: 24px;
+}
 
-.image{
-  size: 1px;
+.carousel-indicators [data-bs-target] span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #7952b3;
+  border-radius: inherit;
 }
   
 .habilidades, h2 {
@@ -83,18 +100,18 @@ body{
 }
 
 .habilidades, h4{
-  padding: 20px;
+  padding: 10px;
   font-size: 28px; 
     color: #4444ec;}
 
 
 .icon-habilidad, i {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #ededf5;
   background-color: #4444ec;
   padding: 10px 10px;
   border-radius: 25%;
-  margin: 2px 2px;
+  margin: 1px 1px;
   align-items: flex-end;
 }
 
@@ -206,23 +223,17 @@ footer{
 
  /* Intento de hacer responsiva mi pagina*/
 
+ @media screen and (max-width: 200px) {
+  .perfil {
+    height: 120px;
+    width: 120px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+
   @media (max-width: 500px){.carousel-inner .carousel-item >div{display: center}.carousel-inner .carousel-item >div:first-child{display: center}}.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev{display: flex}@media (min-width: 500px){.carousel-inner .carousel-item-end.active, .carousel-inner .carousel-item-next{transform: translateX(25%)}.carousel-inner .carousel-item-start.active, .carousel-inner .carousel-item-prev{transform: translateX(-15%)}}.carousel-inner .carousel-item-end, .carousel-inner .carousel-item-start{transform: translateX(0)}
 
-  .carousel-indicators [data-bs-target] {
-    position: relative;
-    width: 60px;
-    height: 6px;
-    border: none;
-    border-radius: 24px;
-  }
-  
-  .carousel-indicators [data-bs-target] span {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #7952b3;
-    border-radius: inherit;
-  }
