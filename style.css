@@ -215,7 +215,9 @@ ol{
 .contacto{
   text-align: center;
 }
-
+.seccion-redes {
+  margin: 30px;
+}
 .iconos-redes{
   color: #0bf4f0;
   display:inline-block;
