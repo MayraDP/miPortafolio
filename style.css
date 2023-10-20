@@ -219,11 +219,11 @@ ol{
 .iconos-redes{
   color: #0bf4f0;
   display:inline-block;
-  justify-content:space-between;
+  justify-content:stretch;
   align-content: center;
   align-items: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
  /* Footer*/
