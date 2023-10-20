@@ -25,6 +25,6 @@ Esta página se alimento de programas como:
 * JavaScript
 * Bootstrap 5
 
-Además se incluyeron secciones como *carousel* para las habilidades y *cards* para los proyectos. Asímismo se utilizaron los **iconos** de Bootstrap y de Iconfinder. 
+Además se incluyeron secciones como **carousel** para las habilidades y **cards** para los proyectos. Asímismo se utilizaron los *iconos* de Bootstrap y de Iconfinder. 
 
 
