@@ -8,7 +8,7 @@ La página web tiene como objetivo exhibir el portafolio y la experiencia de una
 * Información sobre mi.
 * Experiencia Académica.
 
-* Habilidades <u> Científicas e Informáticas. </u>
+* Habilidades <u> Científicas e Informáticas y un poco más. </u>
 
 * Proyectos.
 
